@@ -1,0 +1,136 @@
+/*##########################################################################################
+##  File Name: infogrid.css                                                               ##
+##  Version: 1.0                                                                          ##
+##  Site: www.inforespostas.com.br                                                        ##
+##  E-mail: suporte@inforespostas.com.br                                                  ##
+##########################################################################################*/
+
+.ig-center{ transform: translate(-50%, -50%); top: 50%; left: 50%; position: relative;  }
+.ig-center-x{ transform: translateX(-50%); left: 50%; position: relative;  }
+.ig-center-y{ transform: translateY(-50%); top: 50%; position: relative;  }
+
+@media only screen and (min-width: 300px) and (max-width: 600px){ 
+
+	body{ padding: 0px; margin: 0px; } 
+
+	.ig-container{ width: 100%; } 
+	.ig-container-fluid{ width: 100%; }
+	.ig-context{ padding: 20px; }
+
+	.ig-grid{ display: grid; grid-template-columns: 100%; } 
+	.ig-grid-2{ display: grid; grid-template-columns: 100%; } 
+	.ig-grid-3{ display: grid; grid-template-columns: 100%; } 
+	.ig-grid-4{ display: grid; grid-template-columns: 100%; } 
+	.ig-grid-5{ display: grid; grid-template-columns: 100%; } 
+	.ig-grid-6{ display: grid; grid-template-columns: 100%; } 
+	.ig-grid-7{ display: grid; grid-template-columns: 100%; } 
+	.ig-grid-8{ display: grid; grid-template-columns: 100%; } 
+	.ig-grid-9{ display: grid; grid-template-columns: 100%; } 
+	.ig-grid-10{ display: grid; grid-template-columns: 100%; }
+
+	.ig-auto-grid{ display: grid; grid-template-columns: auto; } 
+	.ig-auto-grid-2{ display: grid; grid-template-columns: auto; } 
+	.ig-auto-grid-3{ display: grid; grid-template-columns: auto; } 
+	.ig-auto-grid-4{ display: grid; grid-template-columns: auto; } 
+	.ig-auto-grid-5{ display: grid; grid-template-columns: auto; } 
+	.ig-auto-grid-6{ display: grid; grid-template-columns: auto; } 
+	.ig-auto-grid-7{ display: grid; grid-template-columns: auto; } 
+	.ig-auto-grid-8{ display: grid; grid-template-columns: auto; } 
+	.ig-auto-grid-9{ display: grid; grid-template-columns: auto; } 
+	.ig-auto-grid-10{ display: grid; grid-template-columns: auto; }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px){ 
+
+	.ig-container{ width: 90%; } 
+	.ig-container-fluid{ width: 100%; }
+	.ig-context{ padding: 35px; }
+
+	.ig-grid{ display: grid; grid-template-columns: 100%; } 
+	.ig-grid-2{ display: grid; grid-template-columns: 50% 50%; } 
+	.ig-grid-3{ display: grid; grid-template-columns: 50% 50%; } 
+	.ig-grid-4{ display: grid; grid-template-columns: 50% 50%; } 
+	.ig-grid-5{ display: grid; grid-template-columns: 50% 50%; } 
+	.ig-grid-6{ display: grid; grid-template-columns: 50% 50%; } 
+	.ig-grid-7{ display: grid; grid-template-columns: 50% 50%; } 
+	.ig-grid-8{ display: grid; grid-template-columns: 50% 50%; } 
+	.ig-grid-9{ display: grid; grid-template-columns: 50% 50%; } 
+	.ig-grid-10{ display: grid; grid-template-columns: 50% 50%; }
+
+	.ig-auto-grid{ display: grid; grid-template-columns: auto; } 
+	.ig-auto-grid-2{ display: grid; grid-template-columns: auto auto; } 
+	.ig-auto-grid-3{ display: grid; grid-template-columns: auto auto; } 
+	.ig-auto-grid-4{ display: grid; grid-template-columns: auto auto; } 
+	.ig-auto-grid-5{ display: grid; grid-template-columns: auto auto; } 
+	.ig-auto-grid-6{ display: grid; grid-template-columns: auto auto; } 
+	.ig-auto-grid-7{ display: grid; grid-template-columns: auto auto; } 
+	.ig-auto-grid-8{ display: grid; grid-template-columns: auto auto; } 
+	.ig-auto-grid-9{ display: grid; grid-template-columns: auto auto; } 
+	.ig-auto-grid-10{ display: grid; grid-template-columns: auto auto; }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1123px){
+
+	body{ padding: 0px; margin: 0px; } 
+
+	.ig-container{ width: 90%; } 
+	.ig-container-fluid{ width: 100%; }
+	.ig-context{ padding: 50px; }
+
+	.ig-grid{ display: grid; grid-template-columns: 100%; } 
+	.ig-grid-2{ display: grid; grid-template-columns: 50% 50%; } 
+	.ig-grid-3{ display: grid; grid-template-columns: 33.33% 33.34% 33.33%; } 
+	.ig-grid-4{ display: grid; grid-template-columns: 25% 25% 25% 25%; } 
+	.ig-grid-5{ display: grid; grid-template-columns: 20% 20% 20% 20% 20%; } 
+	.ig-grid-6{ display: grid; grid-template-columns: 16.66% 16.66% 16.67% 16.67% 16.67% 16.67%; } 
+	.ig-grid-7{ display: grid; grid-template-columns: 14.28% 14.28% 14.28% 14.29% 14.29% 14.29% 14.29%; } 
+	.ig-grid-8{ display: grid; grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%; } 
+	.ig-grid-9{ display: grid; grid-template-columns: 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11%; } 
+	.ig-grid-10{ display: grid; grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%; }
+
+	.ig-auto-grid{ display: grid; grid-template-columns: auto; } 
+	.ig-auto-grid-2{ display: grid; grid-template-columns: auto auto; } 
+	.ig-auto-grid-3{ display: grid; grid-template-columns: auto auto auto; } 
+	.ig-auto-grid-4{ display: grid; grid-template-columns: auto auto auto auto; } 
+	.ig-auto-grid-5{ display: grid; grid-template-columns: auto auto auto auto auto; } 
+	.ig-auto-grid-6{ display: grid; grid-template-columns: auto auto auto auto auto auto; } 
+	.ig-auto-grid-7{ display: grid; grid-template-columns: auto auto auto auto auto auto auto; } 
+	.ig-auto-grid-8{ display: grid; grid-template-columns: auto auto auto auto auto auto auto auto; } 
+	.ig-auto-grid-9{ display: grid; grid-template-columns: auto auto auto auto auto auto auto auto auto; } 
+	.ig-auto-grid-10{ display: grid; grid-template-columns: auto auto auto auto auto auto auto auto auto auto; }
+
+}
+
+@media only screen and (min-width: 1124px){ 
+
+	body{ padding: 0px; margin: 0px; } 
+
+	.ig-container{ width: 1124px; } 
+	.ig-container-fluid{ width: 100%; }
+	.ig-context{ padding: 50px; }
+
+	.ig-grid{ display: grid; grid-template-columns: 100%; } 
+	.ig-grid-2{ display: grid; grid-template-columns: 50% 50%; } 
+	.ig-grid-3{ display: grid; grid-template-columns: 33.33% 33.34% 33.33%; } 
+	.ig-grid-4{ display: grid; grid-template-columns: 25% 25% 25% 25%; } 
+	.ig-grid-5{ display: grid; grid-template-columns: 20% 20% 20% 20% 20%; } 
+	.ig-grid-6{ display: grid; grid-template-columns: 16.66% 16.66% 16.67% 16.67% 16.67% 16.67%; } 
+	.ig-grid-7{ display: grid; grid-template-columns: 14.28% 14.28% 14.28% 14.29% 14.29% 14.29% 14.29%; } 
+	.ig-grid-8{ display: grid; grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%; } 
+	.ig-grid-9{ display: grid; grid-template-columns: 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11%; } 
+	.ig-grid-10{ display: grid; grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%; }
+
+	.ig-auto-grid{ display: grid; grid-template-columns: auto; } 
+	.ig-auto-grid-2{ display: grid; grid-template-columns: auto auto; } 
+	.ig-auto-grid-3{ display: grid; grid-template-columns: auto auto auto; } 
+	.ig-auto-grid-4{ display: grid; grid-template-columns: auto auto auto auto; } 
+	.ig-auto-grid-5{ display: grid; grid-template-columns: auto auto auto auto auto; } 
+	.ig-auto-grid-6{ display: grid; grid-template-columns: auto auto auto auto auto auto; } 
+	.ig-auto-grid-7{ display: grid; grid-template-columns: auto auto auto auto auto auto auto; } 
+	.ig-auto-grid-8{ display: grid; grid-template-columns: auto auto auto auto auto auto auto auto; } 
+	.ig-auto-grid-9{ display: grid; grid-template-columns: auto auto auto auto auto auto auto auto auto; } 
+	.ig-auto-grid-10{ display: grid; grid-template-columns: auto auto auto auto auto auto auto auto auto auto; }
+
+}
